@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Virtual Love Book</title>
+                <!-- Tailwind CSS via CDN -->
+              <script src="https://cdn.tailwindcss.com"></script>
+              <!-- Bootstrap CSS -->
+              <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+              <style>
+                    @keyframes zoomIn {
+                              from { opacity: 0; transform: scale(0.8); }
+                                    to { opacity: 1; transform: scale(1); }
+                    }
+
+                        @keyframes float {
+                                  0% { transform: translateY(0); }
+                                        50% { transform: translateY(-10px); }
+                                              100% { transform: translateY(0); }
+                        }
+
+                            @keyframes bounce {
+                                      0% { transform: scale(1); }
+                                            50% { transform: scale(1.05); }
+                                                  100% { transform: scale(1); }
+                            }
+
+                                .zoom-in {
+                                          animation: zoomIn 1.5s ease-in-out forwards;
+                                }
+
+                                    .float {
+                                              animation: float 3s ease-in-out infinite;
+                                    }
+
+                                        .bounce {
+                                                  animation: bounce 1s ease infinite;
+                                        }
+
+                                            .fade-in {
+                                                      animation: fadeIn 2s ease-in forwards;
+                                            }
+
+                                                @keyframes fadeIn {
+                                                          from { opacity: 0; transform: translateY(20px); }
+                                                                to { opacity: 1; transform: translateY(0); }
+                                                }
+                                            </style>
+                                        </head>
+                                        <body class="bg-gradient-to-r from-pink-100 to-pink-300 flex justify-center items-center h-screen m-0 p-0">
+
+                                              <audio autoplay loop>
+                                                    <source src="https://cdn.pixabay.com/download/audio/2022/03/22/audio_efdefe6e91.mp3" type="audio/mpeg">
+                                              </audio>
+
+                                                <div class="text-center text-pink-800 p-8 fade-in">
+                                                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                                                  <div class="carousel-inner">
+                                                                            <div class="carousel-item active">
+                                                                                          <img src="IMG-20250405-WA0043.jpg" class="d-block w-full rounded-lg shadow-lg zoom-in float" alt="Love Image">
+                                                                            </div>
+                                                                        </div>
+                                                                              <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                                                <span class="sr-only">Previous</span>
+                                                                              </a>
+                                                                                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                                                                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                                                        <span class="sr-only">Next</span>
+                                                                                    </a>
+                                                                                </div>
+
+                                                                                    <p class="text-xl max-w-2xl mx-auto mt-4 fade-in">
+                                                                                              Your smile lights up my world, your laugh makes my day. Every memory with you is a treasure.
+                                                                                    </p>
+                                                                                        <button class="btn bg-pink-500 text-white py-2 px-4 rounded-full mt-4 transform transition-all hover:bg-pink-400 hover:scale-105 bounce" onclick="nextPage()">
+                                                                                                  Next
+                                                                                        </button>
+                                                                                    </div>
+
+                                                                                      <!-- Bootstrap JS and dependencies -->
+                                                                                      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                                                                                      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+                                                                                      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                                                                                    
+                                                                                      <script>
+                                                                                            let currentPage = 0;
+                                                                                        
+                                                                                            // Function to go to the next page
+                                                                                            function nextPage() {
+                                                                                                      currentPage++;
+                                                                                                            if (currentPage >= 1) {
+                                                                                                                        // Hide the "Next" button after the last page
+                                                                                                                                document.querySelector(".btn").style.display = "none";
+                                                                                                            }
+                                                                                                        }
+                                                                                                    </script>
+                                                                                                </body>
+                                                                                                </html>
+                                                                                                
+                                                                                                            }
+                                                                                            }-->
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }-->-->
